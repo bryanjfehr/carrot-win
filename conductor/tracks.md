@@ -4,5 +4,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: Implement Windows Memory Protection for Carrot Protocol**
+- [x] **Track: Implement Windows Memory Protection for Carrot Protocol**
   *Link: [./tracks/memlock_20260316/](./tracks/memlock_20260316/)*
