@@ -14,3 +14,17 @@ TEST(MemlockTest, RAII_Lock) {
         EXPECT_TRUE(lock.is_locked());
     }
 }
+
+TEST(MemlockTest, SecureMemset) {
+    char data[4] = {1, 2, 3, 4};
+    memlock::secure_memset(data, 0, sizeof(data));
+    for (int i = 0; i < 4; ++i) {
+        EXPECT_EQ(data[i], 0);
+    }
+
+    char data2[4] = {0, 0, 0, 0};
+    memlock::secure_memset(data2, 0xFF, sizeof(data2));
+    for (int i = 0; i < 4; ++i) {
+        EXPECT_EQ((unsigned char)data2[i], 0xFF);
+    }
+}

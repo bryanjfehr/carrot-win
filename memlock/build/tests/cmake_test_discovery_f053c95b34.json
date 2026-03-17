@@ -1,10 +1,10 @@
 {
-  "tests": 2,
+  "tests": 3,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "MemlockTest",
-      "tests": 2,
+      "tests": 3,
       "testsuite": [
         {
           "name": "LockMemory",
@@ -15,6 +15,11 @@
           "name": "RAII_Lock",
           "file": "C:\\Users\\bryan\\Dev\\carrot-win\\memlock\\tests\\memlock_test.cpp",
           "line": 10
+        },
+        {
+          "name": "SecureMemset",
+          "file": "C:\\Users\\bryan\\Dev\\carrot-win\\memlock\\tests\\memlock_test.cpp",
+          "line": 18
         }
       ]
     }

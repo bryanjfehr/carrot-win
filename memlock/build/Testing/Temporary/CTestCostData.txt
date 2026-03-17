@@ -1,5 +1,5 @@
-MemlockTest.LockMemory 2 0.0032922
+MemlockTest.LockMemory 3 0.0025978
 MemlockTest.UnlockMemory 1 0.0076935
-MemlockTest.SecureMemset 1 0.0073075
-MemlockTest.RAII_Lock 1 0.0064868
+MemlockTest.SecureMemset 2 0.0036582
+MemlockTest.RAII_Lock 2 0.0042921
 ---
