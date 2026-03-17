@@ -12,13 +12,13 @@
     - [ ] Verify memory is correctly zeroed and unlocked.
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Core Memory Protection Wrapper' (Protocol in workflow.md) 3b55bb0
 
-## Phase 2: Carrot Protocol Integration
-- [ ] Task: Identify Sensitive Memory Regions
+## Phase 2: Carrot Protocol Integration [checkpoint: 0ed4dd1]
+- [x] Task: Identify Sensitive Memory Regions 2bc0973
     - [ ] Map all shared secret and view tag calculation routines in Carrot.
-- [ ] Task: Integrate Memory Pinning
+- [x] Task: Integrate Memory Pinning 2bc0973
     - [ ] Implement the memory-pinning logic for shared secret calculations.
     - [ ] Implement the memory-pinning logic for view tag evaluation.
-- [ ] Task: Verification and Testing
+- [x] Task: Verification and Testing 2bc0973
     - [ ] Run functional tests to ensure the wallet still operates correctly with memory pinning.
     - [ ] Verify memory is correctly pinned and unpinned using Windows tools (e.g., Performance Monitor).
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Carrot Protocol Integration' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Carrot Protocol Integration' (Protocol in workflow.md) 0ed4dd1
