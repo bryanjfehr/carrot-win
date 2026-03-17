@@ -1,16 +1,16 @@
 # Implementation Plan: Implement Windows Memory Protection for Carrot Protocol
 
-## Phase 1: Core Memory Protection Wrapper
-- [ ] Task: Project Scaffolding
+## Phase 1: Core Memory Protection Wrapper [checkpoint: 3b55bb0]
+- [x] Task: Project Scaffolding 62ca62c
     - [ ] Create a new C++ project for the memory-locking library.
     - [ ] Set up CMake with Google Test integration.
-- [ ] Task: RAII-Style Memory Lock Implementation
+- [x] Task: RAII-Style Memory Lock Implementation 62ca62c
     - [ ] Write unit tests for memory-locking and unlocking using `VirtualLock` and `VirtualUnlock`.
     - [ ] Implement a C++ class for RAII-style memory locking.
-- [ ] Task: Secure Memory Deallocation
+- [x] Task: Secure Memory Deallocation 62ca62c
     - [ ] Implement a `secure_memset` function to zero out memory before unlocking and freeing.
     - [ ] Verify memory is correctly zeroed and unlocked.
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: Core Memory Protection Wrapper' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1: Core Memory Protection Wrapper' (Protocol in workflow.md) 3b55bb0
 
 ## Phase 2: Carrot Protocol Integration
 - [ ] Task: Identify Sensitive Memory Regions
