@@ -1,0 +1,10 @@
+^C:\USERS\BRYAN\DEV\CARROT-WIN\BUILD\_DEPS\GOOGLETEST-SRC\GOOGLETEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bryan/Dev/carrot-win -BC:/Users/bryan/Dev/carrot-win/build --check-stamp-file C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

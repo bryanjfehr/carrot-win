@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/bryan/Dev/carrot-win/build/carrot/tests/carrot_test[1]_tests.cmake")
+  include("C:/Users/bryan/Dev/carrot-win/build/carrot/tests/carrot_test[1]_tests.cmake")
+else()
+  add_test(carrot_test_NOT_BUILT carrot_test_NOT_BUILT)
+endif()

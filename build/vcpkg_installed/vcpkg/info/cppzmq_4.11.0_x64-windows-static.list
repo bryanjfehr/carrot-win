@@ -1,0 +1,15 @@
+x64-windows-static/
+x64-windows-static/include/
+x64-windows-static/include/zmq.hpp
+x64-windows-static/include/zmq_addon.hpp
+x64-windows-static/lib/
+x64-windows-static/lib/pkgconfig/
+x64-windows-static/lib/pkgconfig/cppzmq.pc
+x64-windows-static/share/
+x64-windows-static/share/cppzmq/
+x64-windows-static/share/cppzmq/copyright
+x64-windows-static/share/cppzmq/cppzmqConfig.cmake
+x64-windows-static/share/cppzmq/cppzmqConfigVersion.cmake
+x64-windows-static/share/cppzmq/cppzmqTargets.cmake
+x64-windows-static/share/cppzmq/vcpkg.spdx.json
+x64-windows-static/share/cppzmq/vcpkg_abi_info.txt

@@ -1,0 +1,22 @@
+{
+  "tests": 2,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "CarrotTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ScanEnote_Correct",
+          "file": "C:\\Users\\bryan\\Dev\\carrot-win\\carrot\\tests\\carrot_test.cpp",
+          "line": 5
+        },
+        {
+          "name": "ScanEnote_WrongVT",
+          "file": "C:\\Users\\bryan\\Dev\\carrot-win\\carrot\\tests\\carrot_test.cpp",
+          "line": 35
+        }
+      ]
+    }
+  ]
+}

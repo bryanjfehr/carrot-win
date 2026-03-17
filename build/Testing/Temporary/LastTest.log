@@ -1,0 +1,138 @@
+Start testing: Mar 16 21:08 Mountain Daylight Time
+----------------------------------------------------------
+1/5 Testing: MemlockTest.LockMemory
+1/5 Test: MemlockTest.LockMemory
+Command: "C:/Users/bryan/Dev/carrot-win/build/memlock/tests/Debug/memlock_test.exe" "--gtest_filter=MemlockTest.LockMemory" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/bryan/Dev/carrot-win/build/memlock/tests
+"MemlockTest.LockMemory" start time: Mar 16 21:08 Mountain Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\bryan\Dev\carrot-win\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemlockTest.LockMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemlockTest
+[ RUN      ] MemlockTest.LockMemory
+[       OK ] MemlockTest.LockMemory (0 ms)
+[----------] 1 test from MemlockTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemlockTest.LockMemory" end time: Mar 16 21:08 Mountain Daylight Time
+"MemlockTest.LockMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: MemlockTest.RAII_Lock
+2/5 Test: MemlockTest.RAII_Lock
+Command: "C:/Users/bryan/Dev/carrot-win/build/memlock/tests/Debug/memlock_test.exe" "--gtest_filter=MemlockTest.RAII_Lock" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/bryan/Dev/carrot-win/build/memlock/tests
+"MemlockTest.RAII_Lock" start time: Mar 16 21:08 Mountain Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\bryan\Dev\carrot-win\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemlockTest.RAII_Lock
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemlockTest
+[ RUN      ] MemlockTest.RAII_Lock
+[       OK ] MemlockTest.RAII_Lock (0 ms)
+[----------] 1 test from MemlockTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemlockTest.RAII_Lock" end time: Mar 16 21:08 Mountain Daylight Time
+"MemlockTest.RAII_Lock" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: MemlockTest.SecureMemset
+3/5 Test: MemlockTest.SecureMemset
+Command: "C:/Users/bryan/Dev/carrot-win/build/memlock/tests/Debug/memlock_test.exe" "--gtest_filter=MemlockTest.SecureMemset" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/bryan/Dev/carrot-win/build/memlock/tests
+"MemlockTest.SecureMemset" start time: Mar 16 21:08 Mountain Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\bryan\Dev\carrot-win\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemlockTest.SecureMemset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemlockTest
+[ RUN      ] MemlockTest.SecureMemset
+[       OK ] MemlockTest.SecureMemset (0 ms)
+[----------] 1 test from MemlockTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemlockTest.SecureMemset" end time: Mar 16 21:08 Mountain Daylight Time
+"MemlockTest.SecureMemset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: CarrotTest.ScanEnote_Correct
+4/5 Test: CarrotTest.ScanEnote_Correct
+Command: "C:/Users/bryan/Dev/carrot-win/build/carrot/tests/Debug/carrot_test.exe" "--gtest_filter=CarrotTest.ScanEnote_Correct" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/bryan/Dev/carrot-win/build/carrot/tests
+"CarrotTest.ScanEnote_Correct" start time: Mar 16 21:08 Mountain Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\bryan\Dev\carrot-win\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = CarrotTest.ScanEnote_Correct
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CarrotTest
+[ RUN      ] CarrotTest.ScanEnote_Correct
+[       OK ] CarrotTest.ScanEnote_Correct (0 ms)
+[----------] 1 test from CarrotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CarrotTest.ScanEnote_Correct" end time: Mar 16 21:08 Mountain Daylight Time
+"CarrotTest.ScanEnote_Correct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: CarrotTest.ScanEnote_WrongVT
+5/5 Test: CarrotTest.ScanEnote_WrongVT
+Command: "C:/Users/bryan/Dev/carrot-win/build/carrot/tests/Debug/carrot_test.exe" "--gtest_filter=CarrotTest.ScanEnote_WrongVT" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/bryan/Dev/carrot-win/build/carrot/tests
+"CarrotTest.ScanEnote_WrongVT" start time: Mar 16 21:08 Mountain Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\bryan\Dev\carrot-win\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = CarrotTest.ScanEnote_WrongVT
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CarrotTest
+[ RUN      ] CarrotTest.ScanEnote_WrongVT
+[       OK ] CarrotTest.ScanEnote_WrongVT (0 ms)
+[----------] 1 test from CarrotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CarrotTest.ScanEnote_WrongVT" end time: Mar 16 21:08 Mountain Daylight Time
+"CarrotTest.ScanEnote_WrongVT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 16 21:08 Mountain Daylight Time

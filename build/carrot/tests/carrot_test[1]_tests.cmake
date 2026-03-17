@@ -1,0 +1,5 @@
+add_test([=[CarrotTest.ScanEnote_Correct]=]  C:/Users/bryan/Dev/carrot-win/build/carrot/tests/Debug/carrot_test.exe [==[--gtest_filter=CarrotTest.ScanEnote_Correct]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[CarrotTest.ScanEnote_Correct]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\Users\bryan\Dev\carrot-win\carrot\tests\carrot_test.cpp:5]==] WORKING_DIRECTORY C:/Users/bryan/Dev/carrot-win/build/carrot/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[CarrotTest.ScanEnote_WrongVT]=]  C:/Users/bryan/Dev/carrot-win/build/carrot/tests/Debug/carrot_test.exe [==[--gtest_filter=CarrotTest.ScanEnote_WrongVT]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[CarrotTest.ScanEnote_WrongVT]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\Users\bryan\Dev\carrot-win\carrot\tests\carrot_test.cpp:35]==] WORKING_DIRECTORY C:/Users/bryan/Dev/carrot-win/build/carrot/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  carrot_test_TESTS CarrotTest.ScanEnote_Correct CarrotTest.ScanEnote_WrongVT)

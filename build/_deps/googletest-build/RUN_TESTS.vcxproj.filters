@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\build\CMakeFiles\1f68d9def1eb5e2a4c9dd5cc2a53822c\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C47FA74D-9775-3255-9584-4BE4AC5602FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

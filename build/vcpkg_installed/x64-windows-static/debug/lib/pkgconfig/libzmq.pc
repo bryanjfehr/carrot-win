@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/../include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+
+Libs: "-L${libdir}" -llibzmq-mt-sgd-4_3_5 -ladvapi32 -liphlpapi -lrpcrt4 -lws2_32
+Requires: 
+Cflags: "-I${includedir}" 

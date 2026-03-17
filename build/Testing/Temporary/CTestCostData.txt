@@ -1,0 +1,6 @@
+MemlockTest.LockMemory 2 0.0030481
+MemlockTest.RAII_Lock 2 0.00305995
+MemlockTest.SecureMemset 2 0.0027911
+CarrotTest.ScanEnote_Correct 2 0.0034216
+CarrotTest.ScanEnote_WrongVT 2 0.0032235
+---

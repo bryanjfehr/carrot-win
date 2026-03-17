@@ -1,0 +1,173 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 693e642a2acc9f5802f66e6ae3665638ad7541594d2f844be67e35ce87764ccb
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5763365edefb5be10f4641c0ffb35e5d2a4ac7429379cbd43975533f101af664
+Status: install ok installed
+
+Package: vcpkg-boost
+Version: 2025-03-29
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a275264bd059b7c9ceaa92146bfb1f4b5c7eaa1235f93ed0ee70732b374dd01a
+Status: install ok installed
+
+Package: boost-uninstall
+Version: 1.90.0
+Port-Version: 1
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: dfd3f4b74298844e8172a112fdcfc1476f8826a953e00457080e72bfb0b981f6
+Description: Internal vcpkg port used to uninstall Boost
+Status: install ok installed
+
+Package: boost-cmake
+Version: 1.90.0
+Port-Version: 1
+Depends: boost-uninstall, vcpkg-boost:x64-windows
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 244c34437de0acccece77ea5a953c0ff15e04aed9055ce535a50d27f284397d6
+Description: Boost cmake module
+Status: install ok installed
+
+Package: boost-headers
+Version: 1.90.0
+Port-Version: 1
+Depends: boost-cmake
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 0cf2658e2f636d4602329304ea45326d5608d2b33286d175fbdd42c8b2c9b7a2
+Description: Boost headers module
+Status: install ok installed
+
+Package: boost-config
+Version: 1.90.0
+Port-Version: 1
+Depends: boost-cmake, boost-headers
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 5d40a587d9f04708d1d9c828a053ed0667ae69a319bf3562734ca86a406f6720
+Description: Boost config module
+Status: install ok installed
+
+Package: boost-assert
+Version: 1.90.0
+Port-Version: 1
+Depends: boost-cmake, boost-config, boost-headers
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 169f59d88d478b6053b758d489672c16c2030c71ec6f6ba94ca209096600fab9
+Description: Boost assert module
+Status: install ok installed
+
+Package: boost-throw-exception
+Version: 1.90.0
+Port-Version: 1
+Depends: boost-assert, boost-cmake, boost-config, boost-headers
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: e622b47003c7c9c42dcc7c908fbc3fc62a64b7e0821b3082b25c8b88aa3baeca
+Description: Boost throw_exception module
+Status: install ok installed
+
+Package: boost-core
+Version: 1.90.0
+Port-Version: 1
+Depends: boost-assert, boost-cmake, boost-config, boost-headers, boost-throw-exception
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 172f5dfd54feea855481798512850ea222dd99441530b2313af8ae3e09a98a77
+Description: Boost core module
+Status: install ok installed
+
+Package: zeromq
+Version: 4.3.5
+Port-Version: 3
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: ac9fa0feecb94fb63d3f7fba548587104575b67d41f1d09699a6171831d6ab33
+Description: The ZeroMQ lightweight messaging kernel is a library which extends the standard socket interfaces with features traditionally provided by specialised messaging middleware products
+Status: install ok installed
+
+Package: cppzmq
+Version: 4.11.0
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows, zeromq
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: a306970e6d60209eb2725f389f1633b4dfcc8a3bc54dd8378aa2345a48a8983c
+Description: Header-only C++ binding for ZeroMQ
+Status: install ok installed
+
+Package: gtest
+Version: 1.17.0
+Port-Version: 2
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 2ba4b2cc1e3925468345c7d78847f66a7b46ad26080819589ff3cf7cf5243abe
+Description: Google Testing and Mocking Framework
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2025-05-29
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 31a98c118485f5cf0dc2187985bf236fb72272cdc7f453d24077fd0273807d4f
+Status: install ok installed
+
+Package: vcpkg-tool-meson
+Version: 1.9.0
+Port-Version: 3
+Depends: vcpkg-cmake-get-vars
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c48730800aea57368d155554c95e1207bfce3132f5d5357c7add68c3364dc7a0
+Description: Meson build system
+Status: install ok installed
+
+Package: pkgconf
+Version: 2.5.1
+Port-Version: 4
+Depends: vcpkg-tool-meson
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b8c883f2f2e3d95c881f8abeeb90549c8514947bc12db97488812f10d6500e0c
+Description: pkgconf is a program which helps to configure compiler and linker flags for development libraries. It is similar to pkg-config from freedesktop.org.
+Status: install ok installed
+
+Package: vcpkg-pkgconfig-get-modules
+Version: 2024-04-03
+Depends: pkgconf
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5ad0ecf85d26309f659757f81659d989fa9db3f02c91e569d1f1ec1585e39d6f
+Status: install ok installed
+
+Package: vcpkg-msbuild
+Version: 2023-08-08
+Depends: vcpkg-cmake-get-vars, vcpkg-pkgconfig-get-modules
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f16093a36f0d9ccb0359a207be378ab3cf5ae304264f3b85881b52d569c6585a
+Status: install ok installed
+
+Package: libsodium
+Version: 1.0.21
+Depends: vcpkg-msbuild:x64-windows
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 6d84ed1292ee7ba66316d6b61786a85ca4801d1a807ed801606c85c2812f49c7
+Description: A modern and easy-to-use crypto library
+Status: install ok installed
+

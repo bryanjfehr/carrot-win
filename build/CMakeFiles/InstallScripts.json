@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/bryan/Dev/carrot-win/build/cmake_install.cmake",
+		"C:/Users/bryan/Dev/carrot-win/build/memlock/cmake_install.cmake",
+		"C:/Users/bryan/Dev/carrot-win/build/memlock/tests/cmake_install.cmake",
+		"C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"C:/Users/bryan/Dev/carrot-win/build/carrot/cmake_install.cmake",
+		"C:/Users/bryan/Dev/carrot-win/build/carrot/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

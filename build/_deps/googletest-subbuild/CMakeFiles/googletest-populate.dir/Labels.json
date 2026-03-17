@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/c23aa557ded456cb8d502d9900406ac6/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/e1f8a6ae3dc809aa278e289189c4306d/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/68bbb1dddce270c2a16b73b2ccb5f6a9/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/68bbb1dddce270c2a16b73b2ccb5f6a9/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/68bbb1dddce270c2a16b73b2ccb5f6a9/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/68bbb1dddce270c2a16b73b2ccb5f6a9/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/68bbb1dddce270c2a16b73b2ccb5f6a9/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/68bbb1dddce270c2a16b73b2ccb5f6a9/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/68bbb1dddce270c2a16b73b2ccb5f6a9/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/bryan/Dev/carrot-win/build/_deps/googletest-subbuild/CMakeFiles/68bbb1dddce270c2a16b73b2ccb5f6a9/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
