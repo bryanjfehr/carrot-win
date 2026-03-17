@@ -1,0 +1,10 @@
+{
+  "name": "carrot-project",
+  "version": "0.1.0",
+  "dependencies": [
+    "libsodium",
+    "cppzmq",
+    "boost-core",
+    "gtest"
+  ]
+}
