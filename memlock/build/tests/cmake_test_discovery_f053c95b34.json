@@ -1,0 +1,27 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MemlockTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "LockMemory",
+          "file": "C:\\Users\\bryan\\Dev\\carrot-win\\memlock\\tests\\memlock_test.cpp",
+          "line": 4
+        },
+        {
+          "name": "UnlockMemory",
+          "file": "C:\\Users\\bryan\\Dev\\carrot-win\\memlock\\tests\\memlock_test.cpp",
+          "line": 9
+        },
+        {
+          "name": "SecureMemset",
+          "file": "C:\\Users\\bryan\\Dev\\carrot-win\\memlock\\tests\\memlock_test.cpp",
+          "line": 14
+        }
+      ]
+    }
+  ]
+}

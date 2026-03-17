@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/bryan/Dev/carrot-win/memlock/build/tests/memlock_test[1]_tests.cmake")
+  include("C:/Users/bryan/Dev/carrot-win/memlock/build/tests/memlock_test[1]_tests.cmake")
+else()
+  add_test(memlock_test_NOT_BUILT memlock_test_NOT_BUILT)
+endif()

@@ -1,0 +1,7 @@
+add_test([=[MemlockTest.LockMemory]=]  C:/Users/bryan/Dev/carrot-win/memlock/build/tests/Debug/memlock_test.exe [==[--gtest_filter=MemlockTest.LockMemory]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MemlockTest.LockMemory]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\Users\bryan\Dev\carrot-win\memlock\tests\memlock_test.cpp:4]==] WORKING_DIRECTORY C:/Users/bryan/Dev/carrot-win/memlock/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[MemlockTest.UnlockMemory]=]  C:/Users/bryan/Dev/carrot-win/memlock/build/tests/Debug/memlock_test.exe [==[--gtest_filter=MemlockTest.UnlockMemory]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MemlockTest.UnlockMemory]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\Users\bryan\Dev\carrot-win\memlock\tests\memlock_test.cpp:9]==] WORKING_DIRECTORY C:/Users/bryan/Dev/carrot-win/memlock/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[MemlockTest.SecureMemset]=]  C:/Users/bryan/Dev/carrot-win/memlock/build/tests/Debug/memlock_test.exe [==[--gtest_filter=MemlockTest.SecureMemset]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MemlockTest.SecureMemset]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\Users\bryan\Dev\carrot-win\memlock\tests\memlock_test.cpp:14]==] WORKING_DIRECTORY C:/Users/bryan/Dev/carrot-win/memlock/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  memlock_test_TESTS MemlockTest.LockMemory MemlockTest.UnlockMemory MemlockTest.SecureMemset)

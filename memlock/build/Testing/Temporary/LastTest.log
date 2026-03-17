@@ -1,0 +1,84 @@
+Start testing: Mar 16 21:03 Mountain Daylight Time
+----------------------------------------------------------
+1/3 Testing: MemlockTest.LockMemory
+1/3 Test: MemlockTest.LockMemory
+Command: "C:/Users/bryan/Dev/carrot-win/memlock/build/tests/Debug/memlock_test.exe" "--gtest_filter=MemlockTest.LockMemory" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/bryan/Dev/carrot-win/memlock/build/tests
+"MemlockTest.LockMemory" start time: Mar 16 21:03 Mountain Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemlockTest.LockMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemlockTest
+[ RUN      ] MemlockTest.LockMemory
+[       OK ] MemlockTest.LockMemory (0 ms)
+[----------] 1 test from MemlockTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemlockTest.LockMemory" end time: Mar 16 21:03 Mountain Daylight Time
+"MemlockTest.LockMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: MemlockTest.UnlockMemory
+2/3 Test: MemlockTest.UnlockMemory
+Command: "C:/Users/bryan/Dev/carrot-win/memlock/build/tests/Debug/memlock_test.exe" "--gtest_filter=MemlockTest.UnlockMemory" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/bryan/Dev/carrot-win/memlock/build/tests
+"MemlockTest.UnlockMemory" start time: Mar 16 21:03 Mountain Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemlockTest.UnlockMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemlockTest
+[ RUN      ] MemlockTest.UnlockMemory
+[       OK ] MemlockTest.UnlockMemory (0 ms)
+[----------] 1 test from MemlockTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemlockTest.UnlockMemory" end time: Mar 16 21:03 Mountain Daylight Time
+"MemlockTest.UnlockMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: MemlockTest.SecureMemset
+3/3 Test: MemlockTest.SecureMemset
+Command: "C:/Users/bryan/Dev/carrot-win/memlock/build/tests/Debug/memlock_test.exe" "--gtest_filter=MemlockTest.SecureMemset" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/bryan/Dev/carrot-win/memlock/build/tests
+"MemlockTest.SecureMemset" start time: Mar 16 21:03 Mountain Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemlockTest.SecureMemset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemlockTest
+[ RUN      ] MemlockTest.SecureMemset
+[       OK ] MemlockTest.SecureMemset (0 ms)
+[----------] 1 test from MemlockTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemlockTest.SecureMemset" end time: Mar 16 21:03 Mountain Daylight Time
+"MemlockTest.SecureMemset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 16 21:03 Mountain Daylight Time

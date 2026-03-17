@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\cf4cea7287ef580915067c1a1aa1a1a4\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\cf4cea7287ef580915067c1a1aa1a1a4\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\cf4cea7287ef580915067c1a1aa1a1a4\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\cf4cea7287ef580915067c1a1aa1a1a4\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\cf4cea7287ef580915067c1a1aa1a1a4\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\cf4cea7287ef580915067c1a1aa1a1a4\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\cf4cea7287ef580915067c1a1aa1a1a4\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\cf4cea7287ef580915067c1a1aa1a1a4\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\3c87058bbb669b82ebf20235e5a81650\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\4e31edadc3a7503c3ed9b936c33db8a3\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\bryan\Dev\carrot-win\memlock\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EBC52EAD-57FA-3A20-AE97-EEE2B4CAC164}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

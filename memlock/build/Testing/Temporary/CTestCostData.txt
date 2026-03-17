@@ -1,0 +1,4 @@
+MemlockTest.LockMemory 1 0.0068749
+MemlockTest.UnlockMemory 1 0.0076935
+MemlockTest.SecureMemset 1 0.0073075
+---
