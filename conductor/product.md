@@ -7,7 +7,7 @@ Analyze the Carrot protocol integration. Locate the specific routines where the 
 # Product Definition: Carrot Protocol Memory Security Enhancements
 
 ## Vision
-To fortify the Carrot protocol's privacy-preserving mechanisms by ensuring that sensitive cryptographic materials—specifically shared secrets and view tags—never leave physical memory. This project implements low-level Windows memory protection to eliminate the risk of these secrets being leaked to persistent storage via the OS paging file or crash dumps.
+Fortify the Carrot protocol's privacy-preserving mechanisms by ensuring that sensitive cryptographic materials—specifically shared secrets and view tags—never leave physical memory. This project provides a low-level Windows memory protection implementation that eliminates the risk of these secrets being leaked to persistent storage via the OS paging file or crash dumps.
 
 ## Goals
 - **Memory Pinning:** Use Windows-native `VirtualLock` to lock sensitive memory regions in physical RAM.
